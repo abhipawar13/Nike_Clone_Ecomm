@@ -1,0 +1,99 @@
+/* for upper nav */
+.navlist { 
+    background-color: #0074D9; 
+    position: absolute; 
+    width: 100%; 
+    
+} 
+
+.d-flex input[type=text]{
+  width: 300px;;
+}
+    
+/* styling navlist anchor element */ 
+.navlist a { 
+    float:left; 
+    display: block; 
+    color: #f2f2f2; 
+    text-align: center; 
+    padding: 12px; 
+    text-decoration: none; 
+    font-size: 15px; 
+    
+} 
+.navlist-right{ 
+    float:right; 
+    padding: 15px;
+} 
+
+/* hover effect of navlist anchor element */ 
+.navlist ul li a,
+.navlist ul li a:after,
+.navlist ul li a:before {
+  transition: all .5s;
+}
+.navlist ul li a:hover {
+  color: #555;
+}
+
+
+
+/* for main nav */
+.navbar-brand img {
+max-width: 100px; /* Set the maximum width of the image */
+max-height: 50px; /* Set the maximum height of the image */
+
+}
+
+.custom-navbar {
+background-color:white;
+color: rgb(191, 161, 161); /* Set text color to white for better visibility on the black background */
+/* border: 2px solid red; */
+height: 100px;
+}
+.navbar-brand{
+color: rgb(192, 183, 167);
+}
+.custom-navbar .nav-link {
+color: black; /* Set the color of the nav items to white */
+}
+
+.custom-navbar .nav-link:hover {
+color: rgb(97, 97, 93); /* Set the color of the nav items on hover */
+}
+
+.custom-navbar .navbar-toggler-icon {
+background-color: white; /* Set the color of the toggler icon */
+}
+.navbar-nav{
+/* border: 2px solid rebeccapurple; */
+margin-left: 250px
+}
+.nav-item{
+margin-left: 40px;
+font-size: 18px;
+font-weight: 400;   
+}
+
+.collapse ul{
+  margin-left: 15px;
+}
+
+.form-control{
+border:1px solid black
+}
+
+.suggest-search{
+  position: absolute;
+  z-index: 10;
+  background-color: white;
+  top: 70px;
+  display: list-item;
+  border: 1px gray solid;
+  width: 300px;
+  display: none; 
+}
+.suggest-search.show {
+  display: block; /* Show the suggestion box when there are search results */
+  color: gray;
+}

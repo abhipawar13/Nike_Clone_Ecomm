@@ -1,0 +1,19 @@
+
+<div class="card" *ngFor="let item of SearchResult" style="width: 25rem; bottom: 1rem; ">
+    <img class="card-img-top" routerLink='/details/{{item.id}}' src="{{item.image}}" alt="Card image cap">
+    <div class="card-body">
+      <h2> <a class="card-title" routerLink='/details/{{item.id}}'>{{item.name}}</a></h2>
+      <p class="card-text">{{item.description}}</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">{{item.price}}</li>
+      <div style="margin-left: 15px;"> Color: <h3 [style.backgroundColor]="item.color" class="product-color"></h3></div>
+      <li class="list-group-item">{{item.category}}</li>
+    </ul>
+    <!-- <div class="card-body">
+      <button>Add to Cart</button> &nbsp; 
+      <button>Buy Now</button>
+    </div> -->
+  </div>
+<br>
+ 

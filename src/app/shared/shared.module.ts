@@ -1,0 +1,58 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { HomeComponent } from './home/home.component';
+import { MenComponent } from './men/men.component';
+import { WomenComponent } from './women/women.component';
+
+import { SellerHomeComponent } from './seller-home/seller-home.component';
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule} from '@angular/forms';
+import { SellerAuthComponent } from './seller-auth/seller-auth.component';
+import { SellerAddProductComponent } from './seller-add-product/seller-add-product.component';
+import { SellerUpdateProductComponent } from './seller-update-product/seller-update-product.component';
+import { RouterModule } from '@angular/router';
+import {MatGridListModule} from '@angular/material/grid-list';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { SearchComponent } from './search/search.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
+import {MatSliderModule} from '@angular/material/slider';
+import { UserAuthComponent } from './user-auth/user-auth.component';
+// import { FooterComponent } from './footer/footer.component';
+@NgModule({
+  declarations: [
+    HomeComponent,
+    MenComponent,
+    WomenComponent,
+    SellerHomeComponent,
+    
+    SellerAuthComponent,
+    SellerAddProductComponent,
+    SellerUpdateProductComponent,
+    SearchComponent,
+    ProductDetailsComponent,
+    UserAuthComponent,
+    // FooterComponent
+    
+    
+  ],
+  imports: [
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule,
+    RouterModule,
+    MatGridListModule,
+    MatCardModule,
+    MatButtonModule,
+    MatToolbarModule,
+    FlexLayoutModule,
+    MatSliderModule
+
+    
+    
+    
+  ]
+})
+export class SharedModule { }

@@ -1,0 +1,33 @@
+.example-card {
+    max-width: 430px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 2%;
+    box-shadow: 0 4px 8px 0 rgba(5, 1, 1, 0.5), 0 20px 20px 0 rgba(1, 5, 5, 0.4);
+  }
+  
+  .product-color{
+    border: 3px solid black;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
+
+  .quantity-group{
+    margin-top:-5%!important;
+    /* size: 1px; */
+    margin-left: 14px;
+    
+  }
+  .quantity-group button{
+    /* padding: px; */
+    height: 25px;
+  }
+  .quantity-group input{
+    width: 40px;
+    /* padding: 10px; */
+    height: 20px;
+  }
+  
+  

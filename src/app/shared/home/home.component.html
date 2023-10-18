@@ -1,0 +1,56 @@
+
+<div class="sub-nav">
+    <marquee style="text-align: center;" width="40%" direction="up" height="50px"  >
+        Hello Nike App <br>
+        Download the app to access everything Nike. <a href="">Get Your Great</a>
+    </marquee>
+</div>
+<div id="carouselExampleSlidesOnly" class="carousel slide w-100" data-bs-ride="carousel" data-interval="3000" >
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+            <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                class="d-block w-100" alt="first slide">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+            <img src="https://images.unsplash.com/photo-1533681018184-68bd1d883b97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1931&q=80"
+                class="d-block w-100" alt="second slide">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://images.unsplash.com/photo-1585036398651-c89d459f07b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                class="d-block w-100" alt="third slide">
+        </div>
+    </div>
+</div>
+<!-- cards material -->
+
+<div class="content">
+    <div>
+        <h3>Recommended Products</h3>
+    </div>
+    <!-- <div  fxLayout="row wrap" fxLayoutGap="16px"> -->
+    <div class="cardContainer">
+        <div *ngFor="let item of trendyProducts">
+            <mat-card
+                style=" box-shadow: 0 4px 8px 0 rgba(90, 89, 89, 0.2), 0 6px 29px 0 rgb(107, 105, 106); margin: 10px; margin: 10px; "
+                class="mat-elevation-z4">
+                <div class="mat-image">
+                    <img mat-card-image src="{{item.image}}" />
+                </div>
+                <mat-card-content style="margin-top: 10px;">
+                    <h6>Price:{{item.price}}</h6>
+                    <p>color:{{item.color}}</p>
+                </mat-card-content>
+                <mat-card-actions>
+                    <button routerLink='/details/{{item.id}}'
+                        style="color: rgb(128, 0, 255); border: 1px solid rgb(128, 0, 255)  ; margin: 5px; border-radius: 7px;"
+                        mat-button>View Details</button>
+                    <button
+                        style="color: rgb(128, 0, 255);border: 1px solid rgb(128, 0, 255) ; margin: 5px; border-radius: 7px;"
+                        mat-button>Add to Cart</button>
+                </mat-card-actions>
+            </mat-card>
+        </div>
+    </div>
+    <!-- </div> -->
+
+</div>

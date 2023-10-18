@@ -1,0 +1,341 @@
+{
+  "seller": [
+    {
+      "name": "Abhishek Pawar",
+      "email": "abhi@seller.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "Dinesh Vaidya",
+      "email": "dinu@seller.com",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "name": "Ganesh Vaidya",
+      "email": "ganu@seller.com",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "name": "Mayur Dighe",
+      "email": "mayur@seller.com",
+      "password": "12345",
+      "id": 4
+    },
+    {
+      "name": "peter parkar",
+      "email": "peter@seller.com",
+      "password": "12345",
+      "id": 5
+    },
+    {
+      "name": "ajay dighe",
+      "email": "ajay@seller.com",
+      "password": "12345",
+      "id": 6
+    },
+    {
+      "name": "sdnhbbfn ",
+      "email": "dwdn@seller.com",
+      "password": "12345",
+      "id": 7
+    },
+    {
+      "name": "sdnhbbfn ",
+      "email": "dwdn@seller.com",
+      "password": "12345",
+      "id": 8
+    },
+    {
+      "name": "sdnhbbfn ",
+      "email": "dwdn@seller.com",
+      "password": "12345",
+      "id": 9
+    },
+    {
+      "name": "sdnhbbfn ",
+      "email": "dwdn@seller.com",
+      "password": "12345",
+      "id": 10
+    },
+    {
+      "name": "sdnhbbfn ",
+      "email": "dwdn@seller.com",
+      "password": "12345",
+      "id": 11
+    },
+    {
+      "name": "sdnhbbfn ",
+      "email": "dwdn@seller.com",
+      "password": "12345",
+      "id": 12
+    },
+    {
+      "name": "sdnhbbfn ",
+      "email": "dwdn@seller.com",
+      "password": "12345",
+      "id": 13
+    },
+    {
+      "name": "sdfbjfjbmn c",
+      "email": "ddmn@seller.com",
+      "password": "12345",
+      "id": 14
+    },
+    {
+      "name": "sdnmdn",
+      "email": "dinsdjnju@seller.com",
+      "password": "12345",
+      "id": 15
+    },
+    {
+      "name": "sdnmwdn",
+      "email": "dinsdnbu@seller.com",
+      "password": "12345",
+      "id": 16
+    },
+    {
+      "name": "sad nc ",
+      "email": "dinscu@seller.com",
+      "password": "12345",
+      "id": 17
+    },
+    {
+      "name": "Sarthak Hardas",
+      "email": "sarthak@seller.com",
+      "password": "12345",
+      "id": 18
+    },
+    {
+      "name": "Rohit Kadam",
+      "email": "rohit@seller.com",
+      "password": "12345",
+      "id": 19
+    },
+    {
+      "name": "Ram bhaiya",
+      "email": "ram@seller.com",
+      "password": "12345",
+      "id": 20
+    },
+    {
+      "name": "Aniket Landge",
+      "email": "aniket@seller.com",
+      "password": "12345",
+      "id": 21
+    },
+    {
+      "name": "ABhio",
+      "email": "dinefu@seller.com",
+      "password": "12345",
+      "id": 22
+    },
+    {
+      "name": "esf j",
+      "email": "dinusc@seller.com",
+      "password": "12345",
+      "id": 23
+    },
+    {
+      "name": "*scdfcfefef",
+      "email": "sdfddinu@seller.com",
+      "password": "12345",
+      "id": 24
+    },
+    {
+      "name": "Sharukh SRK",
+      "email": "srk@seller.com",
+      "password": "12345",
+      "id": 25
+    },
+    {
+      "name": "Amitabh",
+      "email": "ami@seller.com",
+      "password": "12345",
+      "id": 26
+    },
+    {
+      "name": "Amit Pawar",
+      "email": "amit@seller.com",
+      "password": "12345",
+      "id": 27
+    },
+    {
+      "name": "Amar Wale",
+      "email": "amar@seller.com",
+      "password": "12345",
+      "id": 28
+    },
+    {
+      "name": "Ammit Pawar",
+      "email": "amipawar@seller.com",
+      "password": "12345",
+      "id": 29
+    },
+    {
+      "name": "Mahesh",
+      "email": "mahesh@seller.com",
+      "password": "12345",
+      "id": 30
+    },
+    {
+      "name": "Guru k",
+      "email": "guru@seller.com",
+      "password": "12345",
+      "id": 31
+    },
+    {
+      "name": "Suraj P",
+      "email": "suraj@seller.com",
+      "password": "12345",
+      "id": 32
+    },
+    {
+      "name": "bhvghv",
+      "email": "d@seller.com",
+      "password": "12345",
+      "id": 33
+    },
+    {
+      "name": "Nilesh k",
+      "email": "nilesh@seller.com",
+      "password": "12345",
+      "id": 34
+    },
+    {
+      "name": "Vinay R",
+      "email": "vinay@seller.com",
+      "password": "12345",
+      "id": 35
+    },
+    {
+      "name": "klnmkjnk",
+      "email": "mknjkn@seller.com",
+      "password": "12345",
+      "id": 36
+    },
+    {
+      "name": "Vinuuuu",
+      "email": "vinuu@seller.com",
+      "password": "12345",
+      "id": 37
+    }
+  ],
+  "products": [
+    {
+      "name": "Sneakers",
+      "price": "2200",
+      "color": "red",
+      "category": "shoes",
+      "description": "Good",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "id": 1
+    },
+    {
+      "name": "Shoes",
+      "price": "21000",
+      "color": "white",
+      "category": "White shoes",
+      "description": "very Excellent",
+      "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
+      "id": 3
+    },
+    {
+      "name": "Boot",
+      "price": "2100",
+      "color": "Brown",
+      "category": "Shoes",
+      "description": "Nice",
+      "image": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9vdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": 4
+    },
+    {
+      "name": "Watch",
+      "price": "2500",
+      "color": "black",
+      "category": "watch",
+      "description": "nice",
+      "image": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2F0Y2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "id": 5
+    },
+    {
+      "name": "Belt",
+      "price": "3000",
+      "color": "brown",
+      "category": "belt",
+      "description": "good",
+      "image": "https://images.unsplash.com/photo-1568749750364-053fd74b4115?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmVsdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": 6
+    },
+    {
+      "name": "Tshirt",
+      "price": "2100",
+      "color": "white",
+      "category": "Shirt",
+      "description": "Excellent",
+      "image": "https://images.unsplash.com/photo-1661439193765-392d81462003?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG5pa2UlMjBzaGlydHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": 7
+    },
+    {
+      "name": "Basketball",
+      "price": "1900",
+      "color": "Orange",
+      "category": "Ball",
+      "description": "Good",
+      "image": "https://images.unsplash.com/photo-1485395037613-e83d5c1f5290?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bmlrZSUyMGJhc2tldGJhbGx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "id": 8
+    },
+    {
+      "name": "Nike Golf",
+      "price": "3200",
+      "color": "Black",
+      "category": "Golf",
+      "description": "Ruf & Tuf",
+      "image": "https://plus.unsplash.com/premium_photo-1680374185017-1b3d2ccc1e0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
+      "id": 9
+    },
+    {
+      "name": "Watch",
+      "price": "2100",
+      "color": "Silver",
+      "category": "Sport Watch ",
+      "description": "Nice",
+      "image": "https://images.unsplash.com/photo-1523475496153-3d6cc0f0bf19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHNwb3J0JTIwd2F0Y2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "id": 10
+    }
+  ],
+  "users": [
+    {
+      "name": "Abhishek Pawar",
+      "email": "abhi@user.com",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "name": "Peter Pan",
+      "email": "peter@user.com",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "name": "Rohit K",
+      "email": "rohit@user.com",
+      "password": "12345",
+      "id": 4
+    },
+    {
+      "name": "Gurunath K",
+      "email": "guru@user.com",
+      "password": "12345",
+      "id": 5
+    },
+    {
+      "name": "Mahesh G",
+      "email": "mahi@user.com",
+      "password": "12345",
+      "id": 6
+    }
+  ]
+}

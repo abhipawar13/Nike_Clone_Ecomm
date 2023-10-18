@@ -1,0 +1,21 @@
+<mat-card *ngIf="productData" class="example-card">
+  <img mat-card-image src="{{productData.image}}" alt="Photo of a Shiba Inu">
+  <mat-card-content>
+    <h2>
+      {{productData.name}}
+    </h2>
+    <h5>Price: {{productData.price}}</h5>
+    <div>Color: <h3 [style.backgroundColor]="productData.color" class="product-color"></h3></div>
+    <h6>Catergory: {{productData.category}}</h6>
+    <h6>Description: {{productData.description}}</h6>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button  style="color: rgb(128, 0, 255); border: 1px solid rgb(128, 0, 255)  ;">Add to Cart</button>&nbsp; 
+    <button mat-button  style="color: rgb(128, 0, 255); border: 1px solid rgb(128, 0, 255)  ;" >Buy Now</button>
+  </mat-card-actions><br>
+  <div class="quantity-group">
+    <button (click)="handQuantity('min')">-</button>
+    <input type="text" value="{{productQuantity}}">
+    <button (click)="handQuantity('plus')">+</button>
+  </div>
+</mat-card>

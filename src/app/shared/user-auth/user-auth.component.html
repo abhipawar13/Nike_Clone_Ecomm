@@ -1,0 +1,45 @@
+
+<div  class="user-auth"> 
+    <div *ngIf="!showLogin" class="user-signUp">
+        <body>
+            <div style="width: 40%;" class="signup-container">
+                <h2>Create an Account</h2>
+                <form #userSignUp="ngForm" (ngSubmit)="signUp(userSignUp.value)" class="signup-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" ngModel required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" ngModel required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password"ngModel required>
+                    </div>
+                    <button type="submit">Sign Up</button>
+                    <p>Already Have an Account? <a (click)="openLogin()" style="cursor: pointer;">Click Here</a></p>
+                </form>
+            </div>
+        </body> 
+    </div>
+    <div *ngIf="showLogin" class="user-login">
+        <body>
+            <div style="width: 40%;" class="signup-container">
+                <h2>Log In</h2>
+                <form #userLogin="ngForm" (ngSubmit)="login(userLogin.value)" class="signup-form">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" ngModel required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password"ngModel required>
+                    </div>
+                    <button type="submit">Login</button>
+                    <p>Create an Account? <a (click)="openSignUp()" style="cursor: pointer;">Click Here</a></p>
+                </form>
+            </div>
+        </body> 
+    </div>
+</div>
