@@ -20,6 +20,7 @@
     text-decoration: none; 
     font-size: 15px; 
     
+    
 } 
 .navlist-right{ 
     float:right; 
@@ -70,9 +71,10 @@ background-color: white; /* Set the color of the toggler icon */
 margin-left: 250px
 }
 .nav-item{
-margin-left: 40px;
+margin-left: 19px;
 font-size: 18px;
-font-weight: 400;   
+font-weight: 400;  
+padding: 20px; 
 }
 
 .collapse ul{

@@ -12,6 +12,7 @@ export interface login{
 }
 
 export interface product{
+    localAddTOCart(productData: product): unknown;
     name:String;
     price:number;
     category:String;
@@ -19,4 +20,5 @@ export interface product{
     description:string;
     image:String;
     id:number;
+    quantity:undefined|number;
 }

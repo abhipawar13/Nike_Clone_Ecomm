@@ -336,6 +336,12 @@
       "email": "mahi@user.com",
       "password": "12345",
       "id": 6
+    },
+    {
+      "name": "Abhishek Pawar",
+      "email": "abhi.user.com",
+      "password": "12345",
+      "id": 7
     }
   ]
 }

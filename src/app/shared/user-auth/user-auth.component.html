@@ -11,11 +11,11 @@
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email" ngModel required>
+                        <input type="email" id="email" name="email" ngModel #email="ngModel" required email> <p class="p_error"><span *ngIf="email.invalid && email.touched" > Please Enter valid email</span></p>
                     </div>
                     <div class="form-group">
                         <label for="password">Password</label>
-                        <input type="password" id="password" name="password"ngModel required>
+                        <input type="password" id="password" name="password" ngModel minlength="3" maxlength="7" #password="ngModel"  required password><p class="p_error"><span *ngIf="password.invalid && password.touched" > Please Enter valid password</span></p>
                     </div>
                     <button type="submit">Sign Up</button>
                     <p>Already Have an Account? <a (click)="openLogin()" style="cursor: pointer;">Click Here</a></p>
@@ -28,15 +28,16 @@
             <div style="width: 40%;" class="signup-container">
                 <h2>Log In</h2>
                 <form #userLogin="ngForm" (ngSubmit)="login(userLogin.value)" class="signup-form">
+                   <p class="p_error">{{authError}}</p>
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email" ngModel required>
+                        <input type="email" id="email" autocomplete="off" name="email" ngModel #email="ngModel" required email> <p class="p_error"><span *ngIf="email.invalid && email.touched" > Please Enter valid email</span></p>
                     </div>
                     <div class="form-group">
                         <label for="password">Password</label>
-                        <input type="password" id="password" name="password"ngModel required>
+                        <input type="password" id="password" autocomplete="off" name="password" ngModel minlength="3" maxlength="7" #password="ngModel" required><p class="p_error"><span *ngIf="password.invalid && password.touched" > Please Enter valid password</span></p>
                     </div>
-                    <button type="submit">Login</button>
+                    <button  [disabled]="userLogin.disabled "  type="submit">Login</button>
                     <p>Create an Account? <a (click)="openSignUp()" style="cursor: pointer;">Click Here</a></p>
                 </form>
             </div>

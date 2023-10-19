@@ -8,3 +8,13 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     font-size: 16px;
     color: rgb(28, 209, 43);
 }
+
+.p_error{
+    color: red;
+    font-size: 14px;
+    margin: 20px;
+}
+
+.button:disabled{
+    cursor: not-allowed;
+}

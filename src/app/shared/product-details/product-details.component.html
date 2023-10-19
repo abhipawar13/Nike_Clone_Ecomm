@@ -10,7 +10,8 @@
     <h6>Description: {{productData.description}}</h6>
   </mat-card-content>
   <mat-card-actions>
-    <button mat-button  style="color: rgb(128, 0, 255); border: 1px solid rgb(128, 0, 255)  ;">Add to Cart</button>&nbsp; 
+    <button *ngIf="!removeCart"  (click)="addToCart()" mat-button  style="color: rgb(128, 0, 255); border: 1px solid rgb(128, 0, 255)  ;">Add to Cart</button>&nbsp; 
+    <button *ngIf="removeCart" (click)="removeToCart(productData.id)" mat-button  style="color: rgb(128, 0, 255); border: 1px solid rgb(128, 0, 255)  ;">Remove to Cart</button>&nbsp; 
     <button mat-button  style="color: rgb(128, 0, 255); border: 1px solid rgb(128, 0, 255)  ;" >Buy Now</button>
   </mat-card-actions><br>
   <div class="quantity-group">

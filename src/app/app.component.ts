@@ -17,6 +17,8 @@ export class AppComponent {
   sellerName: string = '';
   userName:string="";
   searchResult: any[] = [];
+  cartItems=0;
+
   constructor(private route: Router, private product: ProductService) { }
 
 
@@ -42,6 +44,15 @@ export class AppComponent {
         }
       }
     });
+
+
+    let cartData=localStorage.getItem('localCart');
+    if(cartData){
+      this.cartItems=JSON.parse(cartData).length
+    }
+    this.product.cartData.subscribe((items)=>{
+      this.cartItems=items.length
+    })
   }
   // seller logout
   logout() {
