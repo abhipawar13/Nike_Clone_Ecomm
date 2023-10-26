@@ -1,0 +1,39 @@
+<h1>my-order works!</h1>
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-center row">
+        <div class="col-md-10">
+            <div class="rounded">
+                <div class="table-responsive table-borderless">
+                    <table  class="table table-bordered">
+                        <thead  class="thead-light">
+                            <tr >
+                                <th>Order</th>
+                                <th>Order #</th>
+                                <th>Status</th>
+                                <th>Total</th>
+                                <th>Created</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody *ngFor="let order of orderData">
+                            <tr class="table-success">
+                                <img src="https://static.thenounproject.com/png/3592871-200.png">
+                                <td>#{{order.id}}</td>
+                                <!-- <td>{{order.}}</td> -->
+                                <td><span class="badge badge-success">Fulfilled</span></td>
+                                <td>{{order.totalPrice}}</td>
+                                <td>Today</td>
+                                <td><button (click)="cancelOrder(order.id)">Cancel Order</button></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- JS script -->

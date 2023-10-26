@@ -38,6 +38,7 @@ export class AppComponent {
           console.log(userData);
           this.userName = userData.name;
           this.menuType = 'user';
+          this.product.getCartList(userData.id);
         }
         else{
           this.menuType='default';
@@ -64,6 +65,7 @@ export class AppComponent {
   userLogout(){
     localStorage.removeItem('user');
     this.route.navigate(['user-auth']);
+    this.product.cartData.emit([]);
   }
 
   searchProduct(event: Event): void {

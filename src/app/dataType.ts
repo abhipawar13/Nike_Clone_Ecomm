@@ -12,7 +12,7 @@ export interface login{
 }
 
 export interface product{
-    localAddTOCart(productData: product): unknown;
+    // localAddTOCart(productData: product): unknown;
     name:String;
     price:number;
     category:String;
@@ -21,4 +21,37 @@ export interface product{
     image:String;
     id:number;
     quantity:undefined|number;
+    productId:undefined|number;
+}
+
+export interface cart{
+    name:String;
+    price:number;
+    category:String;
+    color:string;
+    description:string;
+    image:String;
+    id:number | undefined;
+    quantity:undefined|number;
+    userId:number,
+    productId:number,
+    
+}
+
+export interface priceSummary{
+    price: number,
+    discount:number,
+    tax:number,
+    delivery:number,
+    total:number 
+
+}
+
+export interface order{
+    email:string,
+    address:string,
+    contact:string,
+    totalPrice:number,
+    userId:number,
+    id:number|undefined
 }

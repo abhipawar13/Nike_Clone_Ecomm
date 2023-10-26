@@ -1,0 +1,38 @@
+<div class="card">
+    <div class="cardsContainer">
+        <h2>Bag</h2>
+        <div *ngFor="let cart of cartData" class="card-body">
+            <div class="cart-item">
+                <div class="cart-item-image">
+                    <img src="{{cart.image}}" alt="Product Image">
+                </div>
+                <div class="cart-item-details">
+                    <div><span class="product-name">{{cart.name}}</span>
+                        <span class="price">Rs. {{cart.price}}</span>
+                        <span class="quantity">Quantity: {{cart.quantity}}</span>
+                        <span class="quantity">Description: {{cart.description}}</span>
+                    </div>
+                </div>
+                <div class="cart-button"><button type="button" (click)="removeItemFromCart(cart.id)" class="btn btn-danger remove-button">Remove from
+                        Cart</button></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="summary-card">
+        <h2>Summary</h2>
+        <ul>
+            <li><span>Amount</span><span>{{priceSummary.price}}</span></li>
+            <li><span>Tax</span><span>{{priceSummary.tax}}</span></li>
+            <li><span>Delivery</span><span>{{priceSummary.delivery}}</span></li>
+            <li><span>Disccount</span><span>{{priceSummary.discount}}</span></li>
+            <li><span>
+                    <h4>Total</h4>
+                </span><span>
+                    <h4>Rs. {{priceSummary.total}}</h4>
+                </span></li>
+             <button (click)="checkout()" class="checkout-button">CheckOut</button>   
+        </ul>
+    </div>
+
+</div>

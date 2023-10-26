@@ -15,12 +15,19 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { SearchComponent } from './search/search.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import {MatSliderModule} from '@angular/material/slider';
 import { UserAuthComponent } from './user-auth/user-auth.component';
+import { CartPageComponent } from './cart-page/cart-page.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { MyOrderComponent } from './my-order/my-order.component';
 // import { FooterComponent } from './footer/footer.component';
+
+
 @NgModule({
   declarations: [
     HomeComponent,
@@ -34,6 +41,9 @@ import { UserAuthComponent } from './user-auth/user-auth.component';
     SearchComponent,
     ProductDetailsComponent,
     UserAuthComponent,
+    CartPageComponent,
+    CheckoutComponent,
+    MyOrderComponent,
     // FooterComponent
     
     
@@ -48,7 +58,10 @@ import { UserAuthComponent } from './user-auth/user-auth.component';
     MatButtonModule,
     MatToolbarModule,
     FlexLayoutModule,
-    MatSliderModule
+    MatSliderModule,
+    MatFormFieldModule,
+    MatInputModule,
+    
 
     
     

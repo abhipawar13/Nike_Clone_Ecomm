@@ -342,6 +342,378 @@
       "email": "abhi.user.com",
       "password": "12345",
       "id": 7
+    },
+    {
+      "name": "Amit Pawar",
+      "email": "amit@user.com",
+      "password": "12345",
+      "id": 8
+    }
+  ],
+  "cart": [
+    {
+      "name": "Basketball",
+      "price": "1900",
+      "color": "Orange",
+      "category": "Ball",
+      "description": "Good",
+      "image": "https://images.unsplash.com/photo-1485395037613-e83d5c1f5290?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bmlrZSUyMGJhc2tldGJhbGx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "quantity": 5,
+      "productId": 8,
+      "userId": null,
+      "id": 3
+    },
+    {
+      "name": "Watch",
+      "price": "2100",
+      "color": "Silver",
+      "category": "Sport Watch ",
+      "description": "Nice",
+      "image": "https://images.unsplash.com/photo-1523475496153-3d6cc0f0bf19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHNwb3J0JTIwd2F0Y2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "quantity": 4,
+      "productId": 10,
+      "userId": null,
+      "id": 4
+    },
+    {
+      "name": "Boot",
+      "price": "2100",
+      "color": "Brown",
+      "category": "Shoes",
+      "description": "Nice",
+      "image": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9vdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "quantity": 2,
+      "userId": 3,
+      "productId": 4,
+      "id": 8
+    },
+    {
+      "name": "Shoes",
+      "price": "21000",
+      "color": "white",
+      "category": "White shoes",
+      "description": "very Excellent",
+      "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
+      "quantity": 2,
+      "userId": 3,
+      "productId": 3,
+      "id": 9
+    },
+    {
+      "name": "Watch",
+      "price": "2500",
+      "color": "black",
+      "category": "watch",
+      "description": "nice",
+      "image": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2F0Y2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 5,
+      "id": 11
+    },
+    {
+      "name": "Sneakers",
+      "price": "2200",
+      "color": "red",
+      "category": "shoes",
+      "description": "Good",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 1,
+      "id": 12
+    },
+    {
+      "name": "Basketball",
+      "price": "1900",
+      "color": "Orange",
+      "category": "Ball",
+      "description": "Good",
+      "image": "https://images.unsplash.com/photo-1485395037613-e83d5c1f5290?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bmlrZSUyMGJhc2tldGJhbGx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 8,
+      "id": 13
+    },
+    {
+      "name": "Belt",
+      "price": "3000",
+      "color": "brown",
+      "category": "belt",
+      "description": "good",
+      "image": "https://images.unsplash.com/photo-1568749750364-053fd74b4115?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmVsdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 6,
+      "id": 14
+    },
+    {
+      "name": "Boot",
+      "price": "2100",
+      "color": "Brown",
+      "category": "Shoes",
+      "description": "Nice",
+      "image": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9vdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "quantity": 2,
+      "userId": 4,
+      "productId": 4,
+      "id": 15
+    },
+    {
+      "name": "Watch",
+      "price": "2500",
+      "color": "black",
+      "category": "watch",
+      "description": "nice",
+      "image": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2F0Y2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "quantity": 2,
+      "userId": 4,
+      "productId": 5,
+      "id": 16
+    },
+    {
+      "name": "Basketball",
+      "price": "1900",
+      "color": "Orange",
+      "category": "Ball",
+      "description": "Good",
+      "image": "https://images.unsplash.com/photo-1485395037613-e83d5c1f5290?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bmlrZSUyMGJhc2tldGJhbGx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 8,
+      "id": 19
+    },
+    {
+      "name": "Basketball",
+      "price": "1900",
+      "color": "Orange",
+      "category": "Ball",
+      "description": "Good",
+      "image": "https://images.unsplash.com/photo-1485395037613-e83d5c1f5290?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bmlrZSUyMGJhc2tldGJhbGx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "quantity": 3,
+      "userId": 3,
+      "productId": 8,
+      "id": 20
+    },
+    {
+      "name": "Watch",
+      "price": "2100",
+      "color": "Silver",
+      "category": "Sport Watch ",
+      "description": "Nice",
+      "image": "https://images.unsplash.com/photo-1523475496153-3d6cc0f0bf19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHNwb3J0JTIwd2F0Y2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 10,
+      "id": 22
+    },
+    {
+      "name": "Boot",
+      "price": "2100",
+      "color": "Brown",
+      "category": "Shoes",
+      "description": "Nice",
+      "image": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9vdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 4,
+      "id": 24
+    },
+    {
+      "name": "Watch",
+      "price": "2500",
+      "color": "black",
+      "category": "watch",
+      "description": "nice",
+      "image": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2F0Y2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 5,
+      "id": 25
+    },
+    {
+      "name": "Boot",
+      "price": "2100",
+      "color": "Brown",
+      "category": "Shoes",
+      "description": "Nice",
+      "image": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9vdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "quantity": 1,
+      "productId": 4,
+      "userId": null,
+      "id": 27
+    },
+    {
+      "name": "Watch",
+      "price": "2500",
+      "color": "black",
+      "category": "watch",
+      "description": "nice",
+      "image": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2F0Y2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "quantity": 5,
+      "productId": 5,
+      "userId": 8,
+      "id": 34
+    },
+    {
+      "name": "Nike Golf",
+      "price": "3200",
+      "color": "Black",
+      "category": "Golf",
+      "description": "Ruf & Tuf",
+      "image": "https://plus.unsplash.com/premium_photo-1680374185017-1b3d2ccc1e0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
+      "quantity": 2,
+      "productId": 9,
+      "userId": 8,
+      "id": 35
+    },
+    {
+      "name": "Basketball",
+      "price": "1900",
+      "color": "Orange",
+      "category": "Ball",
+      "description": "Good",
+      "image": "https://images.unsplash.com/photo-1485395037613-e83d5c1f5290?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bmlrZSUyMGJhc2tldGJhbGx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "quantity": 2,
+      "productId": 8,
+      "userId": 2,
+      "id": 36
+    },
+    {
+      "name": "Boot",
+      "price": "2100",
+      "color": "Brown",
+      "category": "Shoes",
+      "description": "Nice",
+      "image": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9vdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "quantity": 2,
+      "productId": 4,
+      "userId": 2,
+      "id": 37
+    },
+    {
+      "name": "Watch",
+      "price": "2500",
+      "color": "black",
+      "category": "watch",
+      "description": "nice",
+      "image": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2F0Y2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "quantity": 2,
+      "productId": 5,
+      "userId": 2,
+      "id": 38
+    }
+  ],
+  "orders": [
+    {
+      "Address": "Nilwande, Sangamner",
+      "cardNumber": "123456789",
+      "expiry": "2042-01",
+      "SecurityCode": "12",
+      "totalPrice": 70198,
+      "userId": 3,
+      "id": 1
+    },
+    {
+      "Address": "Loni, Sangamner",
+      "cardNumber": "987654321",
+      "expiry": "2050-05",
+      "SecurityCode": "54",
+      "totalPrice": 70198,
+      "userId": 3,
+      "id": 2
+    },
+    {
+      "Address": "Ganesh Nagar, Pune",
+      "cardNumber": "12345",
+      "expiry": "2035-05",
+      "SecurityCode": "23",
+      "totalPrice": 70198,
+      "userId": 3,
+      "id": 3
+    },
+    {
+      "Address": "",
+      "payment-method": "",
+      "cardNumber": "",
+      "expiry": "",
+      "SecurityCode": "",
+      "totalPrice": 70198,
+      "userId": 3,
+      "id": 4
+    },
+    {
+      "Address": "Sai Niwas, Pune",
+      "cardNumber": "1234567",
+      "expiry": "2032-02",
+      "SecurityCode": "1w",
+      "totalPrice": 70198,
+      "userId": 3,
+      "id": 5
+    },
+    {
+      "Address": "Kharadi",
+      "cardNumber": "87654321",
+      "expiry": "2025-06",
+      "SecurityCode": "23",
+      "totalPrice": 22998,
+      "userId": 5,
+      "id": 7
+    },
+    {
+      "Address": "wdjhkjd",
+      "cardNumber": "4367547235",
+      "expiry": "2032-06",
+      "SecurityCode": "34",
+      "totalPrice": 22998,
+      "userId": 5,
+      "id": 8
+    },
+    {
+      "Address": "sdf3",
+      "cardNumber": "1234567865432",
+      "expiry": "2023-12",
+      "SecurityCode": "23",
+      "totalPrice": 4298,
+      "userId": 5,
+      "id": 9
+    },
+    {
+      "Address": "ergewkmf",
+      "cardNumber": "12345",
+      "expiry": "2031-11",
+      "SecurityCode": "12",
+      "totalPrice": 9098,
+      "userId": 5,
+      "id": 10
+    },
+    {
+      "Address": "Kothrud , Pune",
+      "cardNumber": "1234567",
+      "expiry": "2034-05",
+      "SecurityCode": "13",
+      "totalPrice": 14898,
+      "userId": 2,
+      "id": 15
+    },
+    {
+      "Address": "Kothrud , Pune",
+      "cardNumber": "1234567",
+      "expiry": "2034-05",
+      "SecurityCode": "13",
+      "totalPrice": 14898,
+      "userId": 2,
+      "id": 16
+    },
+    {
+      "Address": "",
+      "payment-method": "",
+      "cardNumber": "",
+      "expiry": "",
+      "SecurityCode": "",
+      "totalPrice": 3098,
+      "userId": 2,
+      "id": 17
     }
   ]
 }

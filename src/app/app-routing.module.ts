@@ -11,6 +11,9 @@ import { SellerAddProductComponent } from './shared/seller-add-product/seller-ad
 import { SellerUpdateProductComponent } from './shared/seller-update-product/seller-update-product.component';
 import { SearchComponent } from './shared/search/search.component';
 import { ProductDetailsComponent } from './shared/product-details/product-details.component';
+import { CartPageComponent } from './shared/cart-page/cart-page.component';
+import { CheckoutComponent } from './shared/checkout/checkout.component';
+import { MyOrderComponent } from './shared/my-order/my-order.component';
 const routes: Routes = [
   {path:"",component:HomeComponent},
   {path:"men",component:MenComponent},
@@ -21,7 +24,10 @@ const routes: Routes = [
   {path:"sellerUpdate-product/:id",component:SellerUpdateProductComponent,canActivate:[authGuard]},
   {path:"search/:query",component:SearchComponent},
   {path:"details/:productId",component:ProductDetailsComponent},
-  {path:"user-auth",component:UserAuthComponent}
+  {path:"user-auth",component:UserAuthComponent},
+  {path:"cart-page",component:CartPageComponent},
+  {path:"checkout",component:CheckoutComponent},
+  {path:"my-orders",component:MyOrderComponent}
 ];
 
 @NgModule({
