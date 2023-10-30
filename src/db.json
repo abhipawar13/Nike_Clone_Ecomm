@@ -221,18 +221,15 @@
       "email": "vinuu@seller.com",
       "password": "12345",
       "id": 37
+    },
+    {
+      "name": "pani jebro",
+      "email": "pani@seller.com",
+      "password": "12345",
+      "id": 38
     }
   ],
   "products": [
-    {
-      "name": "Sneakers",
-      "price": "2200",
-      "color": "red",
-      "category": "shoes",
-      "description": "Good",
-      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      "id": 1
-    },
     {
       "name": "Shoes",
       "price": "21000",
@@ -297,12 +294,12 @@
       "id": 9
     },
     {
-      "name": "Watch",
-      "price": "2100",
-      "color": "Silver",
-      "category": "Sport Watch ",
-      "description": "Nice",
-      "image": "https://images.unsplash.com/photo-1523475496153-3d6cc0f0bf19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHNwb3J0JTIwd2F0Y2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "name": "Tennis",
+      "price": "3200",
+      "color": "Black",
+      "category": "Sport",
+      "description": "",
+      "image": "https://images.unsplash.com/photo-1542144582-1ba00456b5e3?auto=format&fit=crop&q=80&w=1978&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "id": 10
     }
   ],
@@ -568,18 +565,6 @@
       "id": 35
     },
     {
-      "name": "Basketball",
-      "price": "1900",
-      "color": "Orange",
-      "category": "Ball",
-      "description": "Good",
-      "image": "https://images.unsplash.com/photo-1485395037613-e83d5c1f5290?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bmlrZSUyMGJhc2tldGJhbGx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
-      "quantity": 2,
-      "productId": 8,
-      "userId": 2,
-      "id": 36
-    },
-    {
       "name": "Boot",
       "price": "2100",
       "color": "Brown",
@@ -602,6 +587,42 @@
       "productId": 5,
       "userId": 2,
       "id": 38
+    },
+    {
+      "name": "Shoes",
+      "price": "21000",
+      "color": "white",
+      "category": "White shoes",
+      "description": "very Excellent",
+      "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
+      "quantity": 2,
+      "productId": 3,
+      "userId": 2,
+      "id": 40
+    },
+    {
+      "name": "Tshirt",
+      "price": "2100",
+      "color": "white",
+      "category": "Shirt",
+      "description": "Excellent",
+      "image": "https://images.unsplash.com/photo-1661439193765-392d81462003?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG5pa2UlMjBzaGlydHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "quantity": 2,
+      "productId": 7,
+      "userId": 2,
+      "id": 41
+    },
+    {
+      "name": "Basketball",
+      "price": "1900",
+      "color": "Orange",
+      "category": "Ball",
+      "description": "Good",
+      "image": "https://images.unsplash.com/photo-1485395037613-e83d5c1f5290?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bmlrZSUyMGJhc2tldGJhbGx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "quantity": 2,
+      "productId": 8,
+      "userId": 2,
+      "id": 42
     }
   ],
   "orders": [
@@ -714,6 +735,16 @@
       "totalPrice": 3098,
       "userId": 2,
       "id": 17
+    },
+    {
+      "Address": "",
+      "payment-method": "",
+      "cardNumber": "",
+      "expiry": "",
+      "SecurityCode": "",
+      "totalPrice": 59298,
+      "userId": 2,
+      "id": 18
     }
   ]
 }

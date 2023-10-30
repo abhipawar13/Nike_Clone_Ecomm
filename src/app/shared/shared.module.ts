@@ -18,6 +18,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import {MatDividerModule} from '@angular/material/divider';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { SearchComponent } from './search/search.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import {MatSliderModule} from '@angular/material/slider';
@@ -40,6 +42,7 @@ import { MyOrderComponent } from './my-order/my-order.component';
     SellerUpdateProductComponent,
     SearchComponent,
     ProductDetailsComponent,
+    
     UserAuthComponent,
     CartPageComponent,
     CheckoutComponent,
@@ -57,6 +60,8 @@ import { MyOrderComponent } from './my-order/my-order.component';
     MatCardModule,
     MatButtonModule,
     MatToolbarModule,
+    MatDividerModule,
+    MatProgressBarModule,
     FlexLayoutModule,
     MatSliderModule,
     MatFormFieldModule,

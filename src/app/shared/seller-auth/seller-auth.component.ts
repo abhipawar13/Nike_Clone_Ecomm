@@ -10,8 +10,8 @@ import { SellerService } from 'src/app/services/seller.service';
 })
 export class SellerAuthComponent {
   
-  showLogin=true;
-  authError:String='';
+  showLogin: boolean = true;
+  authError: string = "";
   constructor(private seller:SellerService, private router:Router) { }
  
   ngOnInit(): void {

@@ -21,10 +21,7 @@ import { FooterComponent } from './shared/footer/footer.component';
     BrowserAnimationsModule,
     FormsModule,
     HttpClientModule,
-    
 
-    
-  
   ],
   providers: [
     SharedModule, 

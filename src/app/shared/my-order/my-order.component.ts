@@ -13,23 +13,18 @@ export class MyOrderComponent {
   orderData: order[] | undefined
   constructor(private product: ProductService) { }
 
-
   ngOnInit(): void {
     this.getOrderList();
   }
-
   cancelOrder(orderId: number | undefined) {
     orderId && this.product.cancelOrder(orderId).subscribe((result) => {
       this.getOrderList();
     })
     window.location.reload();
   }
-
   getOrderList() {
     this.product.orderList().subscribe((result) => {
       this.orderData = result
     })
   }
-
-
 }

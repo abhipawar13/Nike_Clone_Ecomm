@@ -1,16 +1,8 @@
-
-body{
-    /* border: 2px blueviolet solid; */
-    /* margin-top: -5%; */
-    
-}
+/* 
 form {
-    /* border: 2px blueviolet solid; */
-
     margin-left: 28%;
     height: 80%;
-    width: 50%;
-    /* size: 40px; */
+    width: 50%; 
 }
 
 
@@ -41,4 +33,67 @@ h1 {
     font-size: 15px;
 color: blue;
 }
+ */
 
+
+ body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+    background-color: #f1f1f1;
+}
+.user-auth{
+   
+}
+.signup-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(40, 40, 40, 0.17) 0px -23px 25px 0px inset, rgba(86, 81, 81, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    text-align: center;
+    border:  .5px solid rgb(120, 116, 116);
+}
+
+.signup-form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff4500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+
+button:hover {
+    background-color: #e04000;
+} 

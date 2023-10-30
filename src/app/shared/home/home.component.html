@@ -1,32 +1,113 @@
-
+<!-- --------------------- -->
 <div class="sub-nav">
-    <marquee style="text-align: center;" width="40%" direction="up" height="50px"  >
+    <marquee style="text-align: center;" width="40%" direction="up" height="50px">
         Hello Nike App <br>
         Download the app to access everything Nike. <a href="">Get Your Great</a>
     </marquee>
 </div>
-<div id="carouselExampleSlidesOnly" class="carousel slide w-100" data-bs-ride="carousel" data-interval="3000" >
-    <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="2000">
-            <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-                class="d-block w-100" alt="first slide">
-        </div>
-        <div class="carousel-item" data-bs-interval="3000">
-            <img src="https://images.unsplash.com/photo-1533681018184-68bd1d883b97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1931&q=80"
-                class="d-block w-100" alt="second slide">
-        </div>
-        <div class="carousel-item" data-bs-interval="2000">
-            <img src="https://images.unsplash.com/photo-1585036398651-c89d459f07b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-                class="d-block w-100" alt="third slide">
-        </div>
+<!-- Run up card -->
+<mat-card class="example-card">
+    <mat-card-header>
+
+        <mat-card-title style="font-weight:bolder; size: 20px; font-size:230%;">RUN YOUR RUN</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <p>Follow the feeling that keeps you running your the best city.</p>
+        <p>{{ longText }}</p>
+        <mat-divider></mat-divider>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-button style="background-color: black; border-radius: 35px; color: white;">Shop Apparel</button>
+        <button mat-button style="background-color: black; border-radius: 35px; color: white;">Shop Footwear</button>
+    </mat-card-actions>
+    <mat-card-footer>
+        <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+    </mat-card-footer>
+</mat-card>
+<br>
+
+<!--category -------------------------- -->
+
+
+<div>
+    <h3>Gear Up</h3>
+</div>
+<div class="gearUp-container">
+    <div>
+        <mat-card class="example-card1">
+            <img mat-card-image
+                src="https://images.unsplash.com/photo-1553891562-c4488738949b?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D"
+                alt="Photo of a Shiba Inu">
+            <mat-card-content>
+                <p>
+
+                </p>
+            </mat-card-content>
+            <mat-card-actions>
+
+                <button mat-button
+                    style="background-color: #ff4500; color: white; border-radius: 20px; position: absolute;">Shop
+                    Infinity</button>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+
+    <div>
+        <mat-card class="example-card1">
+            <img mat-card-image
+                src="https://images.unsplash.com/photo-1647803927752-bc5b72faa9d6?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8"
+                alt="Photo of a Shiba Inu">
+            <mat-card-content>
+                <p>
+
+                </p>
+            </mat-card-content>
+            <mat-card-actions>
+                <button mat-button
+                    style="background-color: #ff4500; color: white; border-radius: 20px; position: absolute;">Shop
+                    Infinity</button>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+
+
+    <div>
+        <mat-card class="example-card1">
+            <img mat-card-image
+                src="https://images.unsplash.com/photo-1556906781-9a412961c28c?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmlrZXxlbnwwfHwwfHx8MA%3D%3D"
+                alt="Photo of a Shiba Inu">
+            <mat-card-content>
+                <p>
+
+                </p>
+            </mat-card-content>
+            <mat-card-actions>
+                <button mat-button
+                    style="background-color: #ff4500; color: white; border-radius: 20px; position: absolute;">Shop
+                    Infinity</button>
+            </mat-card-actions>
+        </mat-card>
     </div>
 </div>
+
+<!-- vid on div -->
+
+<div id="video-container">
+    <video  id="fullscreen-video"controls autoplay>
+      <source src="https://player.vimeo.com/external/568623396.sd.mp4?s=baddfd4dbf060fe003e35d4a5f52df9efd61cbf4&profile_id=164&oauth2_token_id=57447761" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+
+  
 <!-- cards material -->
 
 <div class="content">
     <div>
         <h3>Recommended Products</h3>
     </div>
+
     <!-- <div  fxLayout="row wrap" fxLayoutGap="16px"> -->
     <div class="cardContainer">
         <div *ngFor="let item of trendyProducts">
@@ -44,7 +125,7 @@
                     <button routerLink='/details/{{item.id}}'
                         style="color: rgb(128, 0, 255); border: 1px solid rgb(128, 0, 255)  ; margin: 5px; border-radius: 7px;"
                         mat-button>View Details</button>
-                    <button 
+                    <button
                         style="color: rgb(128, 0, 255);border: 1px solid rgb(128, 0, 255) ; margin: 5px; border-radius: 7px;"
                         mat-button>Add to Cart</button>
                 </mat-card-actions>
