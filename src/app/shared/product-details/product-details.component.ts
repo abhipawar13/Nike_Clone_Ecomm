@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { cart, product } from 'src/app/dataType';
 import { ProductService } from 'src/app/services/product.service';
+import { CheckoutComponent } from '../checkout/checkout.component';
 
 @Component({
   selector: 'app-product-details',
@@ -14,7 +15,7 @@ export class ProductDetailsComponent implements OnInit {
   productQuantity: number = 1;
   removeCart = false;
   cartData: product | undefined;
-  constructor(private activeRoute: ActivatedRoute, private product: ProductService) { }
+  constructor(private activeRoute: ActivatedRoute, private product: ProductService, private router:Router) { }
 
   ngOnInit(): void {
     let productId = this.activeRoute.snapshot.paramMap.get('productId');
@@ -46,7 +47,7 @@ export class ProductDetailsComponent implements OnInit {
             (item: product) =>
               productId?.toString() === item.productId?.toString());
           if (item.length) {
-            this.cartData=item[0];
+            this.cartData = item[0];
             this.removeCart = true;
           }
         });
@@ -111,11 +112,14 @@ export class ProductDetailsComponent implements OnInit {
             this.product.getCartList(userId);
           }
         })
-        setTimeout(() => {
-          window.location.reload();
-        }, 1000);
+      setTimeout(() => {
+        window.location.reload();
+      }, 1000);
       this.removeCart = false;
     }
+  }
 
+  redirectToCheckout(){
+    this.router.navigate(['./checkout'])
   }
 }

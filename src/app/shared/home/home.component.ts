@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { product } from 'src/app/dataType';
 import { ProductService } from 'src/app/services/product.service';
 
@@ -11,14 +12,11 @@ export class HomeComponent {
   popularProducts:undefined|product[]
   trendyProducts:undefined|product[]
 longText: any;
-  constructor (private product:ProductService){}
+  constructor (private product:ProductService,private router:Router){}
 
   ngOnInit():void{
 
-    const longText = `The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog
-  from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was
-  originally bred for hunting.`;
-
+    
 
 
     this.product.popularProducts().subscribe((data)=>{
@@ -29,4 +27,9 @@ longText: any;
       this.trendyProducts=data;
     })
   }
+
+  // redirectToCheckout(){
+  //   this.router.navigate(['./checkout'])
+  // }
+  
 }

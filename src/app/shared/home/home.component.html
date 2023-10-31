@@ -6,7 +6,7 @@
     </marquee>
 </div>
 <!-- Run up card -->
-<mat-card class="example-card">
+<mat-card class="example-card" >
     <mat-card-header>
 
         <mat-card-title style="font-weight:bolder; size: 20px; font-size:230%;">RUN YOUR RUN</mat-card-title>
@@ -17,12 +17,10 @@
         <mat-divider></mat-divider>
     </mat-card-content>
     <mat-card-actions>
-        <button mat-button style="background-color: black; border-radius: 35px; color: white;">Shop Apparel</button>
+        <button mat-button style="background-color: black; border-radius: 35px; margin-right: 20px;  color: white;">Shop Apparel</button>
         <button mat-button style="background-color: black; border-radius: 35px; color: white;">Shop Footwear</button>
     </mat-card-actions>
-    <mat-card-footer>
-        <mat-progress-bar mode="indeterminate"></mat-progress-bar>
-    </mat-card-footer>
+    
 </mat-card>
 <br>
 
@@ -93,7 +91,7 @@
 <!-- vid on div -->
 
 <div id="video-container">
-    <video  id="fullscreen-video"controls autoplay>
+    <video  id="fullscreen-video" autoplay muted loop>
       <source src="https://player.vimeo.com/external/568623396.sd.mp4?s=baddfd4dbf060fe003e35d4a5f52df9efd61cbf4&profile_id=164&oauth2_token_id=57447761" type="video/mp4">
       Your browser does not support the video tag.
     </video>
@@ -118,16 +116,18 @@
                     <img mat-card-image src="{{item.image}}" />
                 </div>
                 <mat-card-content style="margin-top: 10px;">
+                    <h6>{{item.name}}</h6>
                     <h6>Price:{{item.price}}</h6>
+                    <!-- <app-star-rating [rating]="item.rating"></app-star-rating> -->
                     <p>color:{{item.color}}</p>
                 </mat-card-content>
                 <mat-card-actions>
-                    <button routerLink='/details/{{item.id}}'
-                        style="color: rgb(128, 0, 255); border: 1px solid rgb(128, 0, 255)  ; margin: 5px; border-radius: 7px;"
+                    <button routerLink='details/{{item.id}}'
+                        style="background-color: rgb(50, 49, 49); color: white; border: 1px solid rgb(114, 112, 116)  ; margin: 5px; border-radius: 7px;"
                         mat-button>View Details</button>
                     <button
-                        style="color: rgb(128, 0, 255);border: 1px solid rgb(128, 0, 255) ; margin: 5px; border-radius: 7px;"
-                        mat-button>Add to Cart</button>
+                        style="background-color: rgb(50, 49, 49); color: white;border: 1px solid rgb(128, 0, 255) ; margin: 5px; border-radius: 7px;"
+                        mat-button >Buy Now</button>
                 </mat-card-actions>
             </mat-card>
         </div>

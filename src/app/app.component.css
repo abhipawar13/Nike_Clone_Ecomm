@@ -1,101 +1,75 @@
 /* for upper nav */
-.navlist { 
-    background-color: #0074D9; 
-    position: absolute; 
-    width: 100%; 
-    
-} 
 
-.d-flex input[type=text]{
-  width: 300px;;
+.navbar-container{
+ 
 }
-    
-/* styling navlist anchor element */ 
-.navlist a { 
-    float:left; 
-    display: block; 
-    color: #f2f2f2; 
-    text-align: center; 
-    padding: 12px; 
-    text-decoration: none; 
-    font-size: 15px; 
-    
-    
-} 
-.navlist-right{ 
-    float:right; 
-    padding: 15px;
-} 
-
-/* hover effect of navlist anchor element */ 
-.navlist ul li a,
-.navlist ul li a:after,
-.navlist ul li a:before {
-  transition: all .5s;
+.navlist {
+  background-color: #0074D9;
+  width: 100%;
 }
-.navlist ul li a:hover {
-  color: #555;
-}
-
-
 
 /* for main nav */
 .navbar-brand img {
-max-width: 100px; /* Set the maximum width of the image */
-max-height: 50px; /* Set the maximum height of the image */
-
+  max-width: 100px;
+  max-height: 50px;
 }
 
 .custom-navbar {
-background-color:white;
-color: rgb(191, 161, 161); /* Set text color to white for better visibility on the black background */
-/* border: 2px solid red; */
-height: 100px;
-}
-.navbar-brand{
-color: rgb(192, 183, 167);
-}
-.custom-navbar .nav-link {
-color: black; /* Set the color of the nav items to white */
+  background-color: white;
+  color: black;
+  height: 100px;
+  padding: 0 20px;
 }
 
-.custom-navbar .nav-link:hover {
-color: rgb(97, 97, 93); /* Set the color of the nav items on hover */
+.custom-navbar .nav-link {
+  color: black;
 }
 
 .custom-navbar .navbar-toggler-icon {
-background-color: white; /* Set the color of the toggler icon */
-}
-.navbar-nav{
-/* border: 2px solid rebeccapurple; */
-margin-left: 250px
-}
-.nav-item{
-margin-left: 19px;
-font-size: 17px;
-font-weight: 500;  
-padding: 12px; 
+  background-color: black;
 }
 
-.collapse ul{
-  margin-left: 15px;
+.navbar-nav {
+  margin-left: 20px;
 }
 
-.form-control{
-border:1px solid black
+.nav-item {
+  font-size: 17px;
+  font-weight: 500;
+  padding: 12px;
 }
 
-.suggest-search{
+.collapse ul {
+  margin-left: 0;
+}
+
+.form-control {
+  border: 1px solid black;
+  width: 250px; /* Adjust the width as needed */
+}
+
+.suggest-search {
   position: absolute;
   z-index: 10;
   background-color: white;
   top: 70px;
-  display: list-item;
   border: 1px gray solid;
-  width: 300px;
-  display: none; 
+  width: 100%;
+  display: none;
 }
+
 .suggest-search.show {
-  display: block; /* Show the suggestion box when there are search results */
+  display: block;
   color: gray;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar-nav {
+      margin-left: 0;
+  }
+
+  .form-control {
+      width: 100%; /* Full width input in small screens */
+  }
 }

@@ -10,10 +10,12 @@ import { HttpClientModule } from '@angular/common/http';
 import { authGuard } from './auth.guard';
 import { FooterComponent } from './shared/footer/footer.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
-    FooterComponent
+    FooterComponent,
+    
   ],
   imports: [
     BrowserModule,

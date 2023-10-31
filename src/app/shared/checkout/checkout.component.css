@@ -1,9 +1,55 @@
-*{
+/* *{
     margin-top: 1%;
     padding: -10px;
+} */
+body,
+.intro {
+  height: auto;
+  width:50%;
+  padding: 1%;
+  margin: 1%;
+  background-color: #fff;
+  margin-left: 28%;
 }
 
-/* new form */
+
+/* ************** */
+/* Custom styles for the checkout form */
+.checkout-card {
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.custom-input {
+  border: 2px solid #df830a;
+  border-radius: 10px;
+  padding: 12px;
+  transition: border-color 0.3s;
+}
+
+.custom-input:focus {
+  outline: none;
+  border-color: #ff6347;
+}
+
+.custom-button {
+  background-color: #007bff;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  transition: background-color 0.3s;
+}
+
+.custom-button:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
+
+
+/* ************ */
+/* new form
 @use postcss-preset-env {
   stage: 0;
 }
@@ -196,8 +242,8 @@ tfoot {
   overflow: auto;
   /* padding: -30px -30px !important; */
  
-  height: auto !important;
+  /* height: auto !important; */
  
-}
+/* } */
 
-
+ 

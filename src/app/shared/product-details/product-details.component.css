@@ -1,33 +1,127 @@
-.example-card {
+/* .example-card {
     max-width: 430px;
-    
     margin-left: auto;
     margin-right: auto;
     bottom: 2%;
     box-shadow: 0 4px 8px 0 rgba(5, 1, 1, 0.5), 0 20px 20px 0 rgba(1, 5, 5, 0.4);
   }
   
-  .product-color{
-    border: 3px solid black;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-  }
-
+  
   .quantity-group{
     margin-top:-5%!important;
-    /* size: 1px; */
     margin-left: 14px;
     
   }
   .quantity-group button{
-    /* padding: px; */
     height: 25px;
   }
   .quantity-group input{
     width: 40px;
-    /* padding: 10px; */
     height: 20px;
   }
   
-  
+   */
+
+
+
+/* for new product detail page css */
+.container{
+  width: 70%;
+  margin: 10%;
+  padding: 5px;
+}
+.text-bold {
+  font-weight: 800;
+}
+
+text-color {
+  color: #0093c4;
+}
+
+/* Main image - left */
+.main-img img {
+  width: 100%;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+.main-description .category {
+  text-transform: uppercase;
+  color: #0093c4;
+}
+
+.main-description .product-title {
+  font-size: 2.5rem;
+}
+
+.old-price-discount {
+  font-weight: 600;
+}
+
+.new-price {
+  font-size: 2rem;
+}
+
+.details-title {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #757575;
+}
+
+.buttons .block {
+  margin-right: 5px;
+}
+
+.quantity input {
+  border-radius: 0;
+  height: 40px;
+
+}
+
+
+.custom-btn {
+  text-transform: capitalize;
+  background-color: #c46200;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 0;
+}
+
+.custom-btn:hover {
+  background-color: #13810d !important;
+  font-size: 18px;
+  color: white !important;
+}
+
+
+.questions .icon i {
+  font-size: 2rem;
+}
+
+.questions-icon {
+  font-size: 2rem;
+  color: #c46200;
+}
+
+
+.product-color{
+  border: 3px solid black;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+  /* Make preview images responsive  */
+  .previews img {
+    width: 100%;
+    height: auto;
+  }
+
+}

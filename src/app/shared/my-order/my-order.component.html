@@ -1,10 +1,9 @@
-<h1>my-order works!</h1>
 
-<div class="container mt-5">
-    <div class="d-flex justify-content-center row">
-        <div class="col-md-10">
+<div class="container mt-5" style="background-color: rgb(255, 255, 255);">
+    <div class="d-flex justify-content-center row" >
+        <div class="col-md-10" >
             <div class="rounded">
-                <div class="table-responsive table-borderless">
+                <div class="table-responsive table-borderless" >
                     <table  class="table table-bordered">
                         <thead  class="thead-light">
                             <tr >
@@ -20,9 +19,8 @@
                             <tr class="table-success">
                                 <img src="https://static.thenounproject.com/png/3592871-200.png">
                                 <td>#{{order.id}}</td>
-                                <!-- <td>{{order.}}</td> -->
-                                <td><span class="badge badge-success">Fulfilled</span></td>
-                                <td>{{order.totalPrice}}</td>
+                                <td><span class="badge badge-success">In Progress</span></td>
+                                <td>Rs. {{order.totalPrice}}</td>
                                 <td>Today</td>
                                 <td><button (click)="cancelOrder(order.id)">Cancel Order</button></td>
                             </tr>

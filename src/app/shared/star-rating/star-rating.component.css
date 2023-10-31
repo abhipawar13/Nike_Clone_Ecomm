@@ -1,0 +1,12 @@
+.star-rating {
+    font-size: 24px; /* Adjust the font size of stars */
+    color: #FFD700; /* Set the color of stars */
+  }
+  .star {
+    font-size: 24px;
+    color: #FFD700; /* Change color as needed */
+  }
+
+  .full {
+    color: #FFD700; /* Color for filled stars */
+  }
