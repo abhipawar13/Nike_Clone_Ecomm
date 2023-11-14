@@ -8,93 +8,131 @@
 .example-card {
     max-width: 500px;
     height: 200px;
-    margin: 0 auto; /* Center the card horizontally */
+    margin: 0 auto;
+    /* Center the card horizontally */
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.action-button {
-    margin-right: 20px; /* Adjust the value as needed */
-}
-/* category */
 
-.gearUp-container{
+.action-button {
+    margin-right: 20px;
+    /* Adjust the value as needed */
+}
+
+/* gift up card */
+.gift-card {
+    max-width: auto;
+    height: 200px;
+    top: -55px;
+    margin: 0;
+    /* Center the card horizontally */
+    padding: 20px;
     display: flex;
-   margin-left: 4.5%;
-   flex-wrap: wrap !important;
-   position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.gearUp-container>div{
-    
-    margin: 10px;
-  padding: 10px;
-  font-size: 15px;
-  padding: 10px;
-  justify-content: space-evenly;
-  
-  display: flex !important;
+
+.action-button {
+    margin-right: 20px;
+    /* Adjust the value as needed */
+    width: auto;
 }
-.example-card1 {
-    max-width: 400px; 
-  }
-  .mat-container{
-   
-  }
-  .example-header-image {
-    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+
+/* category */
+.circular-card {
+    /* border: 2px solid rgb(21, 255, 0); */
+   border-radius: 15px;
+   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 90%;
+    height: 90%;
+}
+
+.circular-card .circular-card-content {
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+.circular-card .circular-card-image {
+    width: 300px;
+    /* Set the width and height of the circular image */
+    height: 300px;
+    background-color: #ac6565;
+    /* Green background color */
+    border-radius: 50%;
+    /* Make the image round */
     background-size: cover;
-  }
-  #video-container {
+    /* Cover the entire circular area */
+    margin: 0 auto;
+    /* Center the circular image */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    /* Add shadow effect */
+}
+
+
+.circular-card mat-card-content,
+.circular-card mat-card-actions {
+    margin-top: 20px;
+    /* Add spacing between content and button */
+
+}
+
+
+.circular-card h2 {
+    font-size: 24px;
+    /* Set heading font size */
+    margin-bottom: 10px;
+    /* Add space between heading and content */
+}
+
+.circular-card p {
+    font-size: 16px;
+    /* Set paragraph font size */
+    color: #942929;
+    /* Set text color */
+}
+
+.gear-up {
+    margin-left: 35px;
+}
+
+.gearUp-container {
+    display: flex;
+    margin-left: 4.5%;
+    flex-wrap: wrap !important;
+    position: relative;
+}
+
+.gearUp-container>div {
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    padding: 10px;
+    justify-content: space-evenly;
+    display: flex !important;
+}
+
+#video-container {
     margin: 6%;
     width: 88.5%;
-  height: 80vh; /* 100% of the viewport height */
-  overflow: hidden;
-  position: relative;
-    
-  }
-  #fullscreen-video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensures the video covers the entire container while maintaining its aspect ratio */
-  }
- 
-/* Styles for the entire carousel component */
-.carousel {
-    margin-bottom: 4rem;
+    height: 80vh;
+    /* 100% of the viewport height */
+    overflow: hidden;
     position: relative;
 
 }
 
-.carousel-inner {
-    background: white;
-}
-
-.carousel-caption {
-    bottom: 3rem;
-    /* Positions the captions 3rem from the bottom of the slide */
-    z-index: 10;
-    /* Specifies the stacking order of the caption, making it appear above the slide content */
-}
-
-.carousel-item {
-    height: 32rem;
-
-}
-
-.carousel-item>img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 50rem;
-    object-fit: contain;
-}
-
-.product-header-img {
-    object-fit: contain;
-    height: 600px;
+#fullscreen-video {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ensures the video covers the entire container while maintaining its aspect ratio */
+}
+.Recommended-products {
+    margin-left: 35px;
 }
 
 
@@ -115,12 +153,9 @@
     align-items: center;
     justify-content: space-evenly;
     /* border: 1px solid red; */
-
     padding: 16px;
     /* padding-left:140px ; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-
 }
 
 .mat-elevation-z4 {

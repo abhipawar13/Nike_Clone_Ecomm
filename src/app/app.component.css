@@ -1,7 +1,7 @@
 /* for upper nav */
 
 .navbar-container{
- 
+
 }
 .navlist {
   background-color: #0074D9;
@@ -19,6 +19,12 @@
   color: black;
   height: 100px;
   padding: 0 20px;
+  background-color: #fff;
+  
+}
+.toggle{
+  display: none;
+
 }
 
 .custom-navbar .nav-link {
@@ -26,11 +32,16 @@
 }
 
 .custom-navbar .navbar-toggler-icon {
-  background-color: black;
+  background-color: rgb(33, 25, 25);
+  color: white;
 }
+
+
 
 .navbar-nav {
   margin-left: 20px;
+  /* border:  2px solid blue; */
+ 
 }
 
 .nav-item {
@@ -72,4 +83,9 @@
   .form-control {
       width: 100%; /* Full width input in small screens */
   }
+  .toggle{
+    display: block;
+
+  }
+
 }

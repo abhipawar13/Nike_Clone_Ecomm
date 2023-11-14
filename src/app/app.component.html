@@ -1,10 +1,13 @@
+
 <div class="navbar-container">
   <nav class="navbar navbar-expand-lg custom-navbar">
     <a class="navbar-brand" href="#"><img style="margin-left: 14px;"
         src="https://www.nicepng.com/png/detail/11-111341_nike-orange-nike-logo-png.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon" onclick="myFunction()">=</span>
+    
+      
     </button>
     <!-- Search bar -->
     <div *ngIf="menuType==='default'" style="margin-right: 10%;" class="d-flex" role="search">
@@ -76,7 +79,7 @@
       </ul>
 
       <!-------------------- for usernav -------------------->
-      <ul *ngSwitchCase="'user'" style="margin-left: -30px;" class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul *ngSwitchCase="'user'" id="myLinks" style="margin-left: -30px;" class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" routerLink="/" routerLinkActive="active">Home</a>
         </li>
@@ -102,8 +105,11 @@
           <a class="nav-link active" aria-current="page" [routerLink]="cartItems>0?'cart-page':null">MyCart({{cartItems}})</a>
         </li>
       </ul>
+
     </div>
   </nav>
 </div>
 <router-outlet></router-outlet>
 <app-footer></app-footer>
+
+

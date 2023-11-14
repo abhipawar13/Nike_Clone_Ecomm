@@ -16,7 +16,7 @@ import { CheckoutComponent } from './shared/checkout/checkout.component';
 import { MyOrderComponent } from './shared/my-order/my-order.component';
 const routes: Routes = [
   {path:"",component:HomeComponent},
-  {path:"men",component:MenComponent},
+  {path:"men/:category",component:MenComponent},
   {path:"women",component:WomenComponent},
   {path:"seller-auth",component:SellerAuthComponent},
   {path:"seller-home",component:SellerHomeComponent, canActivate:[authGuard]},

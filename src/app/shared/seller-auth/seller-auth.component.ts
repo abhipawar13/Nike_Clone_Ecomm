@@ -19,7 +19,7 @@ export class SellerAuthComponent {
   }
 
   signUp(data:signUp): void {  
-    console.log(data);
+    // console.log(data);
     this.seller.userSignUp(data); 
     // this.router.navigate(['/']);
   }

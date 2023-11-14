@@ -227,6 +227,48 @@
       "email": "pani@seller.com",
       "password": "12345",
       "id": 38
+    },
+    {
+      "name": "paresh",
+      "email": "paresh@seller.com",
+      "password": "12345",
+      "id": 39
+    },
+    {
+      "name": "Sarthak H",
+      "email": "sarthak@seller.com",
+      "password": "12345",
+      "id": 40
+    },
+    {
+      "name": "xyz",
+      "email": "xyzi@seller.com",
+      "password": "12345",
+      "id": 41
+    },
+    {
+      "name": "abcd",
+      "email": "abcd@seller.com",
+      "password": "12345",
+      "id": 42
+    },
+    {
+      "name": "wer",
+      "email": "wer@seller.com",
+      "password": "12345",
+      "id": 43
+    },
+    {
+      "name": "qas",
+      "email": "qas@seller.com",
+      "password": "12345",
+      "id": 44
+    },
+    {
+      "name": "YOGESH J",
+      "email": "yogesh@seller.com",
+      "password": "12345",
+      "id": 45
     }
   ],
   "products": [
@@ -310,6 +352,78 @@
       "description": "“Unpredictable bounce for games of fetch”",
       "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2372799e-7c0c-4ae0-87e0-5c07f932cb27/dri-fit-club-unstructured-featherlight-cap-J9Hvf3.png",
       "id": 18
+    },
+    {
+      "name": "Tiger Wood",
+      "price": "2500",
+      "color": "Maroon",
+      "category": "Sport",
+      "description": "Men's Golf wear",
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/dcedca16-9020-427e-b878-182d9d878e3d/tiger-woods-dri-fit-adv-golf-polo-5RDNTV.png",
+      "id": 19
+    },
+    {
+      "name": "Nike Dry Fit",
+      "price": "2600",
+      "color": "Black",
+      "category": "Sport",
+      "description": "Golf China Sport",
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0a1af701-2e7d-4d0b-8cab-27460feec199/dri-fit-uv-23cm-golf-chino-shorts-XvdbRf.png",
+      "id": 20
+    },
+    {
+      "name": "Nike Dry Fit ADV ",
+      "price": "2100",
+      "color": "White",
+      "category": "Sport",
+      "description": "The Golf of Hat",
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d583660f-b9bb-4180-8801-c1fd476e823d/dri-fit-adv-fly-unstructured-reflective-design-cap-LrQ9fF.png",
+      "id": 21
+    },
+    {
+      "name": "Men's Trainning Shirt",
+      "price": "1300",
+      "color": "White",
+      "category": "Shirt",
+      "description": "Men's Nike Dry FIT ADV ",
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2cd951f3-cb9f-46a2-b7a2-9c530021a7e2/dri-fit-primary-training-t-shirt-z9dSFb.png",
+      "id": 22
+    },
+    {
+      "name": "Men's Dry FIT Short-Sleeves Shirt",
+      "price": "1495",
+      "color": "Black",
+      "category": "Shirt",
+      "description": "Nike Pro",
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/95092704-4d36-4048-9af3-9052742e1869/pro-dri-fit-tight-short-sleeve-fitness-top-1qJjkp.png",
+      "id": 23
+    },
+    {
+      "name": "Men's Oversize T-shirt",
+      "price": "1435",
+      "color": "Black",
+      "category": "Shirt",
+      "description": "Nike Pro with Ultimate",
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/1f4b0884-a14f-4ad8-9eba-8bdac23dc3b1/jordan-flight-essentials-oversized-t-shirt-C7XVkQ.png",
+      "id": 24
+    },
+    {
+      "name": "Men's Nike FootBall T-Shirt",
+      "price": "15600",
+      "color": "Violet",
+      "category": "Shirt",
+      "description": "Nike Pro",
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f7aa29ac-9fde-40a8-9f9e-285703ea3498/liverpool-fc-essentials-football-t-shirt-9gzqQ1.png",
+      "id": 25
+    },
+    {
+      "name": "Men's Full Zip Jacket",
+      "price": "1995",
+      "color": "Black",
+      "category": "Sport",
+      "description": "Nike Pro",
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/74bf4da9-ff4e-433b-8ecd-559fe0f95020/yoga-dri-fit-jacket-qZFbcT.png",
+      "id": 26
     }
   ],
   "users": [
@@ -354,6 +468,12 @@
       "email": "amit@user.com",
       "password": "12345",
       "id": 8
+    },
+    {
+      "name": "Sarthak Hardas",
+      "email": "sarthak@user.com",
+      "password": "12345",
+      "id": 9
     }
   ],
   "cart": [
@@ -608,6 +728,90 @@
       "productId": 5,
       "userId": null,
       "id": 38
+    },
+    {
+      "name": "Hoodie",
+      "price": "12500",
+      "color": "Black",
+      "category": "Basket Ball  Hoodies",
+      "description": "“Unpredictable bounce for games of fetch”",
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/39c5b02d-15cb-4feb-87a8-eae103807720/ja-dri-fit-pullover-basketball-hoodie-Cp748n.png",
+      "quantity": 2,
+      "productId": 14,
+      "userId": null,
+      "id": 39
+    },
+    {
+      "name": "Feather light Cap",
+      "price": "6300",
+      "color": "Black",
+      "category": "Cap",
+      "description": "“Unpredictable bounce for games of fetch”",
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2372799e-7c0c-4ae0-87e0-5c07f932cb27/dri-fit-club-unstructured-featherlight-cap-J9Hvf3.png",
+      "quantity": 2,
+      "productId": 18,
+      "userId": 9,
+      "id": 40
+    },
+    {
+      "name": "Jordan Nu Retro",
+      "price": "9195",
+      "color": "White",
+      "category": "Sneaker",
+      "description": "“Unpredictable bounce for games of fetch”",
+      "image": "https://images.unsplash.com/photo-1512374382149-233c42b6a83b?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGpvcmRhbiUyMG5pa2V8ZW58MHx8MHx8fDA%3D",
+      "quantity": 1,
+      "productId": 11,
+      "userId": 9,
+      "id": 41
+    },
+    {
+      "name": "Jordan Nu Retro",
+      "price": "9195",
+      "color": "White",
+      "category": "Sneaker",
+      "description": "“Unpredictable bounce for games of fetch”",
+      "image": "https://images.unsplash.com/photo-1512374382149-233c42b6a83b?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGpvcmRhbiUyMG5pa2V8ZW58MHx8MHx8fDA%3D",
+      "quantity": 2,
+      "productId": 11,
+      "userId": 2,
+      "id": 42
+    },
+    {
+      "name": "Men's Oversize T-shirt",
+      "price": "1435",
+      "color": "Black",
+      "category": "Shirt",
+      "description": "Nike Pro with Ultimate",
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/1f4b0884-a14f-4ad8-9eba-8bdac23dc3b1/jordan-flight-essentials-oversized-t-shirt-C7XVkQ.png",
+      "quantity": 1,
+      "productId": 24,
+      "userId": null,
+      "id": 43
+    },
+    {
+      "name": "Men's Full Zip Jacket",
+      "price": "1995",
+      "color": "Black",
+      "category": "Sport",
+      "description": "Nike Pro",
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/74bf4da9-ff4e-433b-8ecd-559fe0f95020/yoga-dri-fit-jacket-qZFbcT.png",
+      "quantity": 3,
+      "productId": 26,
+      "userId": 2,
+      "id": 44
+    },
+    {
+      "name": "Air Jordan Rb",
+      "price": "12950",
+      "color": "Black",
+      "category": "Sneaker",
+      "description": "“Unpredictable bounce for games of fetch”",
+      "image": "https://images.unsplash.com/photo-1526765992122-6abcb1e0f4fa?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D",
+      "quantity": 2,
+      "productId": 12,
+      "userId": 2,
+      "id": 45
     }
   ],
   "orders": [
@@ -692,6 +896,26 @@
       "totalPrice": 9098,
       "userId": 5,
       "id": 10
+    },
+    {
+      "name": "",
+      "lastName": "",
+      "address": "",
+      "email": "",
+      "phone": "",
+      "totalPrice": 25998,
+      "userId": 2,
+      "id": 11
+    },
+    {
+      "name": "",
+      "lastName": "",
+      "address": "",
+      "email": "",
+      "phone": "",
+      "totalPrice": 12698,
+      "userId": 9,
+      "id": 12
     }
   ]
 }

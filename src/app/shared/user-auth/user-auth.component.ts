@@ -20,7 +20,7 @@ export class UserAuthComponent implements OnInit {
 
   // for user signUp
   signUp(data: signUp) {
-    console.log(data);
+    // console.log(data);
     this.user.userSignUp(data);
   }
 

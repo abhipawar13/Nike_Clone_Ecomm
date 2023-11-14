@@ -25,8 +25,9 @@ export class SellerService {
         this.isSellerLoggedIn.next(true);  //Send a POST request to 'http://localhost:3000/seller'
         this.router.navigate(['seller-home']);
         console.log(result.body);
-        localStorage.setItem('seller', JSON.stringify(result.body));
+        localStorage.setItem('seller', JSON.stringify([result.body]));
         console.log(result);
+
         // if (result) {
         //   //If there is a response from the server
         //   localStorage.setItem('seller', JSON.stringify(result.body));

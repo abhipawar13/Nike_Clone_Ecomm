@@ -28,6 +28,8 @@ export class AppComponent {
         if (localStorage.getItem('seller') && val.url.includes('seller')) {
           let sellerStore = localStorage.getItem('seller');
           let sellerData = sellerStore && JSON.parse(sellerStore)[0];
+          console.log(sellerData);
+          
           this.sellerName = sellerData.name;
           this.menuType = 'seller';
         } 
@@ -91,5 +93,5 @@ export class AppComponent {
     this.route.navigate(['/details/' + id]);
   }
 
-
+ 
 }

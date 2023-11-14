@@ -1,2 +1,32 @@
-<p>men works!</p>
-<h1>this main for github </h1>
+
+
+<div class="content">
+    <div class="Recommended-products">
+        <p style="color: black;">{{category}} Products</p>
+    </div>
+
+    <div class="cardContainer">
+        <div *ngFor="let item of products">
+            <mat-card
+                style=" box-shadow: 0 4px 8px 0 rgba(90, 89, 89, 0.2), 0 6px 29px 0 rgb(107, 105, 106); margin: 10px; margin: 10px; "
+                class="mat-elevation-z4">
+                <div class="mat-image">
+                    <img mat-card-image src="{{item.image}}" />
+                </div>
+                <mat-card-content style="margin-top: 10px;">
+                    <h6>{{item.name}}</h6>
+                    <h6>Price:{{item.price}}</h6>
+                    <p>color:{{item.color}}</p>
+                </mat-card-content>
+                <mat-card-actions>
+                    <button routerLink='/details/{{item.id}}'
+                        style="background-color: rgb(50, 49, 49); color: white; border: 1px solid rgb(114, 112, 116)  ; margin: 5px; border-radius: 7px;"
+                        mat-button>View Details</button>
+                    <button
+                        style="background-color: rgb(50, 49, 49); color: white;border: 1px solid rgb(128, 0, 255) ; margin: 5px; border-radius: 7px;"
+                        mat-button >Buy Now</button>
+                </mat-card-actions>
+            </mat-card>
+        </div>
+    </div>
+</div> 

@@ -6,107 +6,118 @@
     </marquee>
 </div>
 <!-- Run up card -->
-<mat-card class="example-card" >
+<mat-card class="example-card">
     <mat-card-header>
 
         <mat-card-title style="font-weight:bolder; size: 20px; font-size:230%;">RUN YOUR RUN</mat-card-title>
     </mat-card-header>
     <mat-card-content>
         <p>Follow the feeling that keeps you running your the best city.</p>
-        <p>{{ longText }}</p>
+        
         <mat-divider></mat-divider>
     </mat-card-content>
     <mat-card-actions>
-        <button mat-button style="background-color: black; border-radius: 35px; margin-right: 20px;  color: white;">Shop Apparel</button>
+        <button mat-button style="background-color: black; border-radius: 35px; margin-right: 20px;  color: white;">Shop
+            Apparel</button>
         <button mat-button style="background-color: black; border-radius: 35px; color: white;">Shop Footwear</button>
     </mat-card-actions>
-    
+
 </mat-card>
 <br>
 
 <!--category -------------------------- -->
-
-
-<div>
+<div class="gear-up">
     <h3>Gear Up</h3>
-</div>
-<div class="gearUp-container">
-    <div>
-        <mat-card class="example-card1">
-            <img mat-card-image
-                src="https://images.unsplash.com/photo-1553891562-c4488738949b?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D"
-                alt="Photo of a Shiba Inu">
+  </div>
+  <div class="container mt-5">
+    <div class="row">
+      <!-- Sneakers Category -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <mat-card class="example-card circular-card">
+          <div class="circular-card-content">
+            <div class="circular-card-image" style="background-image: url('https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b6781198-fb6b-4438-b6ec-a2dec96f9a14/gt-cut-2-ep-basketball-shoes-M7jcxn.png');"></div>
             <mat-card-content>
-                <p>
-
-                </p>
+              <h2>Sneakers</h2>
+              <p>Explore our latest collection of sneakers.</p>
             </mat-card-content>
-            <mat-card-actions>
-
-                <button mat-button
-                    style="background-color: #ff4500; color: white; border-radius: 20px; position: absolute;">Shop
-                    Infinity</button>
-            </mat-card-actions>
+           
+          </div>
+          <mat-card-actions style=" text-align: center; margin-left: 5px;  ">
+            <button style="background-color: black;" mat-raised-button color="primary"  routerLink="/men/Sneaker">Shop Now</button>
+          </mat-card-actions>
         </mat-card>
-    </div>
-
-    <div>
-        <mat-card class="example-card1">
-            <img mat-card-image
-                src="https://images.unsplash.com/photo-1647803927752-bc5b72faa9d6?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8"
-                alt="Photo of a Shiba Inu">
+      </div>
+  
+      <!-- Shirts Category -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <mat-card class="example-card circular-card">
+          <div class="circular-card-content">
+            <div class="circular-card-image" style="background-image: url('https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c54b2f99-3712-4a55-8187-22b023352cc7/acg-lungs-long-sleeve-t-shirt-5D54n5.png');"></div>
             <mat-card-content>
-                <p>
-
-                </p>
+              <h2>Shirts</h2>
+              <p>Discover trendy shirts for any occasion.</p>
             </mat-card-content>
-            <mat-card-actions>
-                <button mat-button
-                    style="background-color: #ff4500; color: white; border-radius: 20px; position: absolute;">Shop
-                    Infinity</button>
-            </mat-card-actions>
+          </div>
+          <mat-card-actions style=" text-align: center; margin-left: 5px; ">
+            <button style="background-color: black;" mat-raised-button color="primary" routerLink="/men/Shirt">Shop Now</button>
+          </mat-card-actions>
         </mat-card>
-    </div>
-
-
-    <div>
-        <mat-card class="example-card1">
-            <img mat-card-image
-                src="https://images.unsplash.com/photo-1556906781-9a412961c28c?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmlrZXxlbnwwfHwwfHx8MA%3D%3D"
-                alt="Photo of a Shiba Inu">
+      </div>
+  
+      <!-- Jackets Category -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <mat-card class="example-card circular-card">
+          <div class="circular-card-content">
+            <div class="circular-card-image" style="background-image: url('https://images.unsplash.com/photo-1518365658347-c4906efc5636?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHJ1bnxlbnwwfHwwfHx8MA%3D%3D'); background-size: cover;"></div>
             <mat-card-content>
-                <p>
-
-                </p>
+              <h2>Sports</h2>
+              <p>Stay warm with our stylish jackets collection.</p>
             </mat-card-content>
-            <mat-card-actions>
-                <button mat-button
-                    style="background-color: #ff4500; color: white; border-radius: 20px; position: absolute;">Shop
-                    Infinity</button>
-            </mat-card-actions>
+          </div>
+          <mat-card-actions style=" text-align: center; margin-left: 5px; ">
+            <button style="background-color: black;" mat-raised-button color="primary" routerLink="/men/Sport">Shop Now</button>
+          </mat-card-actions>
         </mat-card>
+      </div>
     </div>
-</div>
-
+  </div>
 <!-- vid on div -->
 
 <div id="video-container">
-    <video  id="fullscreen-video" autoplay muted loop>
-      <source src="https://player.vimeo.com/external/568623396.sd.mp4?s=baddfd4dbf060fe003e35d4a5f52df9efd61cbf4&profile_id=164&oauth2_token_id=57447761" type="video/mp4">
-      Your browser does not support the video tag.
+    <video id="fullscreen-video" autoplay muted loop>
+        <source
+            src="https://player.vimeo.com/external/568623396.sd.mp4?s=baddfd4dbf060fe003e35d4a5f52df9efd61cbf4&profile_id=164&oauth2_token_id=57447761"
+            type="video/mp4">
+        Your browser does not support the video tag.
     </video>
-  </div>
+</div>
 
+<!-- Gift ths keep card -->
+<mat-card class="gift-card">
+    <mat-card-header>
 
-  
+        <mat-card-title style="font-weight:bolder; size: 20px; font-size:230%;">GIFTS THAT KEEP GOING</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <p>So he won't ever have to stop </p>
+       
+        <mat-divider></mat-divider>
+    </mat-card-content>
+    <mat-card-actions>
+        <!-- <button mat-button style="background-color: black; border-radius: 35px; margin-right: 20px;  color: white;">Shop</button> -->
+        <button mat-button style="background-color: black; border-radius: 35px; color: white;">Shop Explore</button>
+    </mat-card-actions>
+
+</mat-card>
+<br>
+
 <!-- cards material -->
 
 <div class="content">
-    <div>
+    <div class="Recommended-products">
         <h3>Recommended Products</h3>
     </div>
 
-    <!-- <div  fxLayout="row wrap" fxLayoutGap="16px"> -->
     <div class="cardContainer">
         <div *ngFor="let item of trendyProducts">
             <mat-card
@@ -118,7 +129,6 @@
                 <mat-card-content style="margin-top: 10px;">
                     <h6>{{item.name}}</h6>
                     <h6>Price:{{item.price}}</h6>
-                    <!-- <app-star-rating [rating]="item.rating"></app-star-rating> -->
                     <p>color:{{item.color}}</p>
                 </mat-card-content>
                 <mat-card-actions>
@@ -127,11 +137,9 @@
                         mat-button>View Details</button>
                     <button
                         style="background-color: rgb(50, 49, 49); color: white;border: 1px solid rgb(128, 0, 255) ; margin: 5px; border-radius: 7px;"
-                        mat-button >Buy Now</button>
+                        mat-button>Buy Now</button>
                 </mat-card-actions>
             </mat-card>
         </div>
     </div>
-    <!-- </div> -->
-
 </div>

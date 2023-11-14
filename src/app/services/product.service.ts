@@ -9,6 +9,7 @@ export class ProductService {
 
 
   cartData = new EventEmitter<product[] | []>()
+  
   constructor(private http: HttpClient) { }
   addProduct(data: product) {
     // console.log("service called"); 
@@ -96,30 +97,35 @@ export class ProductService {
   currentCart() {
     let userStore = localStorage.getItem('user');
     let userData = userStore && JSON.parse(userStore);
-    return this.http.get<cart[]>('http://localhost:4000/cart?userId='+userData.id);
+    return this.http.get<cart[]>('http://localhost:4000/cart?userId=' + userData.id);
   }
 
-  orderNow(data:order){ 
-    return this.http.post('http://localhost:4000/orders',data)
+  orderNow(data: order) {
+    return this.http.post('http://localhost:4000/orders', data)
 
   }
 
-  orderList(){
+  orderList() {
     let userStore = localStorage.getItem('user');
     let userData = userStore && JSON.parse(userStore);
-    return this.http.get<order[]>('http://localhost:4000/orders?userId='+userData.id)
+    return this.http.get<order[]>('http://localhost:4000/orders?userId=' + userData.id)
   }
 
-  deleteCartItems(cartId:number){
-    return this.http.delete('http://localhost:4000/cart/' + cartId).subscribe((result)=>{
-      if(result){
-          this.cartData.emit([])
-          console.log(result);
+  deleteCartItems(cartId: number) {
+    return this.http.delete('http://localhost:4000/cart/' + cartId).subscribe((result) => {
+      if (result) {
+        this.cartData.emit([])
+        console.log(result);
       }
     })
   }
 
-   cancelOrder(orderId:number){
-    return this.http.delete('http://localhost:4000/orders/'+orderId);
+  cancelOrder(orderId: number) {
+    return this.http.delete('http://localhost:4000/orders/' + orderId);
   }
+
+  getProductsByCategory(category:any){
+    return this.http.get<product[]>(`http://localhost:4000/products?category=${category}`)
+  }
+  
 }
